@@ -4,7 +4,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.novaeratec.AR"
-        version   = "0.1.30">
+        version   = "0.1.31">
 
     <name>AR Camera</name>
 
@@ -39,9 +39,10 @@
 
     <!-- Plugins -->
 
-    <!-- Core plugins
+    <!-- Core plugins -->
     <gap:plugin name="org.apache.cordova.camera" />
-    <gap:plugin name="org.apache.cordova.geolocation" />
+    <!--
+	<gap:plugin name="org.apache.cordova.geolocation" />
     <gap:plugin name="org.apache.cordova.device-orientation" />
 	<gap:plugin name="org.apache.cordova.battery-status" />
     <gap:plugin name="org.apache.cordova.media-capture" />
