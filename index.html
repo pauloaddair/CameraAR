@@ -1,4 +1,5 @@
 <html>
+<title>Camera AR</title>
 </head>
 <script>
 document.addEventListener('deviceready', function () {
@@ -6,7 +7,7 @@ document.addEventListener('deviceready', function () {
     // have to call initialize function with canvas object
     var objCanvas = document.getElementById("canvas");
     window.plugin.CanvasCamera.initialize(objCanvas);
-
+	alert("Camera pronta!");
     // window.plugin.CanvasCamera is now available
 }, false);
 function onStartClicked()
@@ -19,6 +20,7 @@ function onStartClicked()
 			height: 480
 		};
 		window.plugin.CanvasCamera.start(options);
+		alert("Camera iniciada!");
 	}
 </script>
 </head>
